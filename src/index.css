@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#auto-save-toggle:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ffffff;
+}
